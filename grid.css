@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+}
+
+header a {
+    color: white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+    background-color: black;
+    padding: 10px;
+    width: 40%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.orange {
+    background-color: orangered;
+    color: orangered;
+    grid-column-start:1 ;
+    grid-column-end:4 ;
+    grid-row-start:1 ;
+    grid-row-end: 3;
+    padding: 7em 5em 7em 5em;
+    
+}
+
+.yellow {
+    background-color: orange;
+    color: orange;
+    grid-row-start:1 ;
+    grid-row-end: 3;
+    padding: 7em 5em 7em 5em;
+}
+
+.green {
+    background-color: green;
+    color: green;
+    grid-column-start:1 ;
+    grid-column-end:3 ;
+    grid-row-start:3 ;
+    grid-row-end:5;
+    padding: 7em 5em 7em 5em;
+}
+
+.blue1, .blue2 {
+    background-color: skyblue;
+    color: skyblue;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    
+}
